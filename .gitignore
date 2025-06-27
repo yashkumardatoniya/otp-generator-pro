@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+junit.xml
+test-results/
+*.lcov
+
+# Jest specific
+jest-cache/
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+lib/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional caches
+.npm/
+.eslintcache
+.stylelintcache
+
+# Package outputs
+*.tgz
+
+# TypeScript 
+*.tsbuildinfo
