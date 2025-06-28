@@ -1,0 +1,9 @@
+__test__/
+.vscode/
+.git/
+.gitignore
+package-lock.json
+*.swp
+*.log
+*.test.js
+.env
