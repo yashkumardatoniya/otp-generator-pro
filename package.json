@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yashkumardatoniya/otp-generator-pro.git"
+    "url": "git+https://github.com/yashkumardatoniya/otp-generator-pro.git"
   },
   "bugs": {
     "url": "https://github.com/yashkumardatoniya/otp-generator-pro/issues"
