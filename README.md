@@ -7,14 +7,14 @@ A secure, easy-to-use, and highly configurable OTP (One-Time Password) generator
 # Installation
 
 ```bash
-npm install otp-generator-pro
+npm install @yashdatoniya/otp-generator-pro
 ```
 
 # Quick Start
 
 ```javaScript
 
-const {generateOTP} = require('otp-generator-pro');
+const {generateOTP} = require('@yashdatoniya/otp-generator-pro');
 
 // Generate a simple 6-digit OTP
 
@@ -216,7 +216,7 @@ generateOTP({ expiresIn: "5x" });
 **Email Verification**
 
 ```javascript
-const { generateNumericOTP } = require("otp-generator-pro");
+const { generateNumericOTP } = require("@yashdatoniya/otp-generator-pro");
 
 // Generate 6-digit OTP valid for 10 minutes
 const emailOtp = generateNumericOTP(6, "10m");
@@ -228,7 +228,7 @@ console.log(`Expires at: ${emailOtp.expiresAt.toLocaleString()}`);
 **SMS Authentication**
 
 ```javascript
-const { generateOTP } = require("otp-generator-pro");
+const { generateOTP } = require("@yashdatoniya/otp-generator-pro");
 
 // Generate 4-digit OTP for SMS (shorter for mobile)
 const smsOtp = generateOTP({
@@ -243,7 +243,7 @@ console.log(`SMS Code: ${smsOtp.otp}`);
 **Two-Factor Authentication**
 
 ```javascript
-const { generateAlphaNumericOTP } = require("otp-generator-pro");
+const { generateAlphaNumericOTP } = require("@yashdatoniya/otp-generator-pro");
 
 // Generate 8-character alphanumeric code for 2FA
 const twoFactorCode = generateAlphaNumericOTP(8, "15m");
@@ -254,7 +254,7 @@ console.log(`2FA Code: ${twoFactorCode.otp}`);
 **Secure Token Generation**
 
 ```javascript
-const { generateComplexOTP } = require("otp-generator-pro");
+const { generateComplexOTP } = require("@yashdatoniya/otp-generator-pro");
 
 // Generate complex token for secure operations
 const secureToken = generateComplexOTP(32, "1h");
